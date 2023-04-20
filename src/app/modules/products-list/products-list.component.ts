@@ -1,7 +1,6 @@
 import { ApplicationRef, ChangeDetectionStrategy, ChangeDetectorRef, Component, DoCheck, OnInit } from '@angular/core';
 import { IProduct } from '../../shared/products/product.interface';
 import { productsMock } from '../../shared/products/products.mock';
-import { LoadDirection } from '../../shared/scroll-with-loading/load-direction.const';
 
 @Component({
 	selector: 'app-products-list',
